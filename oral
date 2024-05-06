@@ -1,0 +1,27 @@
+---------------pandas----------------
+Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
+
+
+
+----------------DAta Frame-------------------
+A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns.
+
+-----------Describe---
+The describe() method returns description of the data in the DataFrame. If the DataFrame contains numerical data, the description contains these information for each column: count - The number of not-empty values. mean - The average (mean) value. std - The standard deviation.
+
+----------Box Plot------------
+A box and whisker plot or diagram (otherwise known as a boxplot), is a graph summarising a set of data. The shape of the boxplot shows how the data is distributed and it also shows any outliers.
+
+----Outliers----
+When a value is called an outlier it usually means that that value deviates from all other values in a data set. For example, in a group of 5 students the test grades were 9, 8, 9, 7, and 2. The last value seems to be an outlier because it falls below the main pattern of the other grades.
+
+---------------Data wrangling------------
+Data wrangling is the process of transforming and structuring data from one raw form into a desired format with the intent of improving data quality and making it more consumable and useful for analytics or machine learning.
+
+-----------Data Preprocessing-----------------
+Data preprocessing/preparation/cleaning is the process of detecting and correcting (or removing) corrupt or inaccurate records from a dataset, or and refers to identifying incorrect, incomplete, irrelevant parts of the data and then modifying, replacing, or deleting the dirty or coarse data
+
+--------------data formatting---------------
+Data format is the definition of the structure of data within a database or file system that gives the information its meaning.
+
+---------data normalization-----------
