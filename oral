@@ -7,6 +7,29 @@ comma-separated values
 ----------------DAta Frame-------------------
 A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns.
 
+-----------------Catogorical variables-----------
+Categorical Variable/Data (or Nominal variable): Such variables take on a fixed and limited number of possible values.
+For example – grades, gender, blood group type, etc.
+
+----------------------quantitative variables----------
+Quantitative variables are any variables where the data represent amounts (e.g. height, weight, or age). 
+Categorical variables are any variables where the data represent groups. 
+This includes rankings (e.g. finishing places in a race), classifications (e.g. brands of cereal), and binary outcomes (e.g. coin flips).
+
+-----------Accuracy--------
+Accuracy is a metric that measures how often a machine learning model correctly predicts the outcome.
+accuracy = correct prediction / all predictions
+
+--------------Error rate------
+Error rate refers to a measure of the degree of prediction error of a model made with respect to the true model.
+
+-----------------Precision------
+The ability of a classification model to identify only the relevant data points.
+Mathematically, precision is the number of true positives divided by the number of true positives plus the number of false positives.
+
+--------Recall------------------
+The ability of a model to find all the relevant cases within a data set.
+
 -----------Describe---
 The describe() method returns description of the data in the DataFrame. 
 If the DataFrame contains numerical data, the description contains these information for each column: count - The number of not-empty values. mean - The average (mean) value. std - The standard deviation.
