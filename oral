@@ -1,19 +1,23 @@
 ---------------pandas----------------
 Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
 
-
+-------csv------
+comma-separated values
 
 ----------------DAta Frame-------------------
 A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns.
 
 -----------Describe---
-The describe() method returns description of the data in the DataFrame. If the DataFrame contains numerical data, the description contains these information for each column: count - The number of not-empty values. mean - The average (mean) value. std - The standard deviation.
+The describe() method returns description of the data in the DataFrame. 
+If the DataFrame contains numerical data, the description contains these information for each column: count - The number of not-empty values. mean - The average (mean) value. std - The standard deviation.
 
 ----------Box Plot------------
-A box and whisker plot or diagram (otherwise known as a boxplot), is a graph summarising a set of data. The shape of the boxplot shows how the data is distributed and it also shows any outliers.
+A box and whisker plot or diagram (otherwise known as a boxplot), is a graph summarising a set of data. 
+The shape of the boxplot shows how the data is distributed and it also shows any outliers.
 
 ----Outliers----
-When a value is called an outlier it usually means that that value deviates from all other values in a data set. For example, in a group of 5 students the test grades were 9, 8, 9, 7, and 2. The last value seems to be an outlier because it falls below the main pattern of the other grades.
+When a value is called an outlier it usually means that that value deviates from all other values in a data set. 
+For example, in a group of 5 students the test grades were 9, 8, 9, 7, and 2. The last value seems to be an outlier because it falls below the main pattern of the other grades.
 
 ---------------Data wrangling------------
 Data wrangling is the process of transforming and structuring data from one raw form into a desired format with the intent of improving data quality and making it more consumable and useful for analytics or machine learning.
@@ -25,3 +29,138 @@ Data preprocessing/preparation/cleaning is the process of detecting and correcti
 Data format is the definition of the structure of data within a database or file system that gives the information its meaning.
 
 ---------data normalization-----------
+Normalization is the process of organizing data in a database. 
+It includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.
+
+---------numpy--------
+NumPy stands for Numerical Python
+SciPy stands for Scientific Python
+
+----matplot-----
+Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. 
+It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.
+
+-------seaborn------
+Seaborn is a library for making statistical graphics in Python. 
+It builds on top of matplotlib and integrates closely with pandas data structures. Seaborn helps you explore and understand your data.
+
+---------heatmap-----
+A heatmap is a graphical representation of data that uses a system of color coding to represent different values. 
+Heatmaps are used in various forms of analytics but are most commonly used to show user behavior on specific web pages or webpage templates.
+
+----scatterplot-----
+A scatter plot (aka scatter chart, scatter graph) uses dots to represent values for two different numeric variables. 
+The position of each dot on the horizontal and vertical axis indicates values for an individual data point. Scatter plots are used to observe relationships between variables.
+
+-----impala-------
+Impala is an open-source and native analytics database for Hadoop. 
+It is a Massive Parallel Processing (MPP) SQL query engine that processes massive amounts of data stored in a Hadoop cluster
+it provides high performance and low latency compared to other SQL engines for Apache Hadoop, such as Hive.
+Impala uses SQL as its query language.
+
+---------why impala---------
+Since Impala is not built over the MapReduce algorithms, the latency is reduced allowing Impala to run faster than Hive.
+Impala supports in-memory data processing, which means that it accessed data that is stored on the Hadoop data nodes without movement of data.
+
+---scala----
+Scala allows interaction between distributed databases and empowers parallel data processing to reduce time.
+The language is known for big data processing and containing large data into scalable volumes to make decisions.
+------why scala---
+Scala, which favors immutability, anonymous functions, higher-order functions, pattern matching, classes that cannot be extended by default, and much more. 
+The Scala ecosystem offers the most modern FP libraries in the world.
+
+
+True positive = (TP) Observation is predicted positive and is actually positive.
+False positive = (FP)
+True negative = (TN)
+
+-------confusion matrix------
+A confusion matrix is a table that is used to define the performance of a classification algorithm
+
+------catplot-----
+Figure-level interface for drawing categorical plots onto a FacetGrid
+
+----crosstab-----
+Cross tabulation (crosstab) is a useful analysis tool commonly used to compare the results for one or more variables with the results of another variable.
+
+------naive bayes-----
+Naive Bayes is a simple yet powerful machine learning algorithm for classification.
+It uses Bayes theorem to predict the class of something (like spam or not spam) based on its features (like words in an email).
+It's popular for its speed and accuracy, especially in text classification tasks.
+
+p(a|b) = { p(b|a) p(a) / p(b) }  
+p(a|b) -> probability of a when event b occurs
+p(a) -> probability of when a will occurs
+
+-----------mean---
+The mean is the average value of a set of numbers.
+X = x1+x2/2
+
+-----------standard deviation------
+formula -> σ = √((Σ(xi — μ)²) / n)
+
+-------Correlation-------
+ρ = cov(x, y) / (σx * σy) 
+σ -> sigma
+ρ -> rho
+
+-------logistic regression-----
+Logistic regression is a data analysis technique that uses mathematics to find the relationships between two data factors.
+Logistic regression is used for binary classification problems. 
+It models the relationship between the predictor variables and the probability of belonging to a particular class using the logistic function.
+p = 1 / (1 + e^-(β0 + β1 * x1 + β2 * x2 + … + βn * xn))
+β -> beta
+
+-----------Variance (σ²)-----------
+
+σ² = ((Σ(xi — μ)²) / n)
+---------------Covariance----------
+ Covariance measures the relationship between two variables.
+cov(x, y) = Σ((xi — μx)(yi — μy)) / n
+
+-----tokenization---
+Tokenization breaks text into smaller parts for easier machine analysis, helping machines understand human language.
+
+------pos tagging----
+POS tagging is the process of labeling words in a text with their corresponding parts of speech (e.g., noun, verb, adjective). 
+
+----stop words removal---
+
+Stop word removal is one of the most commonly used preprocessing steps across different NLP applications. 
+The idea is simply removing the words that occur commonly across all the documents in the corpus. Typically, articles and pronouns are generally classified as stop words.
+
+--------stemming---
+Stemming is one of several text normalization techniques that converts raw text data into a readable format for natural language processing tasks.
+
+------------lemmitization----
+Lemmatization is a text pre-processing technique used in natural language processing (NLP) models to break a word down to its root meaning to identify similarities.
+
+--------term frequency------
+Term frequency (TF) means how often a term occurs in a document. 
+In the context of natural language, terms correspond to words or phrases. But terms could also represent any token in text. It's all about how you define it.
+
+-----inverse document frequency---------
+Inverse Document Frequency (IDF) is a weight indicating how commonly a word is used. 
+The more frequent its usage across documents, the lower its score. The lower the score, the less important the word becomes.
+
+-------nltk----
+NLTK is a powerful and flexible library for performing sentiment analysis and other natural language processing tasks in Python. 
+By using NLTK, we can preprocess text data, convert it into a bag of words model, and perform sentiment analysis using Vader's sentiment analyzer.
+
+--------histogram-----
+A histogram is a bar graph-like representation of data that buckets a range of classes into columns along the horizontal x-axis
+
+-------distplot---
+Distplot is also known as the second Histogram because it is a slight improvement version of the Histogram.
+Distplot gives us a KDE(Kernel Density Estimation) over histogram which explains PDF(Probability Density Function) which means what is the probability of each value occurring in this column.
+
+------jointplot------
+A Jointplot is a figure that showcases the relationship between two variables, combining scatter plots, hexbin plots, regression plots, or 2D kernel density plots with histograms, KDE (Kernel Density Estimate) plots, or other representations of the univariate distribution of each variable on the margins.
+
+---------rugplot------
+A rug plot is a plot of data for a single quantitative variable, displayed as marks along an axis. It is used to visualise the distribution of the data. As such it is analogous to a histogram with zero-width bins, or a one-dimensional scatter plot. A rug plot of 100 data points appears in blue along the x-axis.
+
+-----iris-----
+The Iris Dataset contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor).
+These measures were used to create a linear discriminant model to classify the species.
+
