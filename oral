@@ -1,5 +1,6 @@
 ---------------pandas----------------
-Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
+Pandas is a software library written for the Python programming language for data manipulation and analysis. 
+In particular, it offers data structures and operations for manipulating numerical tables and time series.
 
 -------csv------
 comma-separated values
@@ -111,7 +112,7 @@ Naive Bayes is a simple yet powerful machine learning algorithm for classificati
 It uses Bayes theorem to predict the class of something (like spam or not spam) based on its features (like words in an email).
 It's popular for its speed and accuracy, especially in text classification tasks.
 
-p(a|b) = { p(b|a) p(a) / p(b) }  
+p(a|b) = { p(b|a) x p(a) / p(b) }  
 p(a|b) -> probability of a when event b occurs
 p(a) -> probability of when a will occurs
 
